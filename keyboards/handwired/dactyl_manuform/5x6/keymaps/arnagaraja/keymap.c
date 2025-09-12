@@ -25,9 +25,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,KC_EXLM, KC_AT ,KC_HASH,KC_DLR ,KC_PERC,                        KC_CIRC,KC_AMPR,KC_ASTR,KC_LPRN,KC_RPRN,KC_DEL,
         KC_ESC,_______,_______,KC_UP,KC_PGUP,KC_PGUP,                        _______, _______ , _______ , _______ ,_______,_______,
         _______,_______,KC_LEFT,KC_DOWN,KC_RIGHT ,_______,                        _______, _______ , _______ , _______ ,_______,_______,
-        _______,_______,_______,_______,KC_PGUP,_______,                        _______, KC_KB_MUTE , _______ , _______ ,_______ ,_______,
+        _______,_______,_______,_______,KC_PGUP,_______,                        _______, KC_MUTE , _______ , _______ ,_______ ,_______,
                                                 _______,_______,            _______, _______,
-                                    KC_KB_VOLUME_UP,KC_KB_VOLUME_DOWN,            KC_KB_VOLUME_DOWN,KC_KB_VOLUME_UP,
+                                                  KC_VOLU,KC_VOLD,          KC_VOLD,KC_VOLU,
                                                 _______,_______,            _______,_______,
                                                 _______,_______,            _______,_______
 
