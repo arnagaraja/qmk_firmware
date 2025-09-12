@@ -47,8 +47,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 // Define Combos
 const uint16_t PROGMEM screenshot[] = {KC_W, KC_E, KC_R, COMBO_END}; // WINDOWS SCREENSHOT
-const uint16_t PROGMEM cad[] = {KC_S, KC_D, KC_F, COMBO_END}; // CTRL + ALT + DEL
-const uint16_t PROGMEM teams_mute[] = {KC_X, KC_C, KC_V, COMBO_END}; // Mute MS Teams (Windows)
+const uint16_t PROGMEM cad[] = {KC_S  , LT(NAV,KC_D)  , KC_F, COMBO_END}; // CTRL + ALT + DEL
+const uint16_t PROGMEM teams_mute[] = {KC_X  , LCTL_T(KC_C)  , KC_V, COMBO_END}; // Mute MS Teams (Windows)
 combo_t key_combos[] = {
     COMBO(screenshot, LWIN(LSFT(KC_S))),
     COMBO(cad, KC_CAD),
