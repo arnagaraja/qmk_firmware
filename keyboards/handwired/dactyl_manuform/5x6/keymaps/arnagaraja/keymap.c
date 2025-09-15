@@ -65,11 +65,13 @@ const uint16_t PROGMEM screenshot[] = {KC_W, KC_E, KC_R, COMBO_END}; // WINDOWS 
 const uint16_t PROGMEM cad[] = {KC_S  , LT(NAV,KC_D)  , KC_F, COMBO_END}; // CTRL + ALT + DEL
 const uint16_t PROGMEM teams_mute[] = {KC_X  , LCTL_T(KC_C)  , LWIN_T(KC_V), COMBO_END}; // Mute MS Teams (Windows)
 const uint16_t PROGMEM caps_lock[] = {KC_LSFT  , KC_RSFT  , COMBO_END}; // Caps Lock
-const uint16_t PROGMEM mouse[] = {KC_GRV, KC_LCMD, COMBO_END}; // Caps Lock
+const uint16_t PROGMEM mouse[] = {KC_GRV, KC_LCMD, COMBO_END}; // Toggle Mouse Layer
+const uint16_t PROGMEM ctrl_enter[] = {KC_LSFT, LCTL_T(KC_Z), COMBO_END}; // Send CTRL + ENTER
 combo_t key_combos[] = {
     COMBO(screenshot, LWIN(LSFT(KC_S))),
     COMBO(cad, KC_CAD),
     COMBO(teams_mute, LCTL(LSFT(KC_M))),
     COMBO(caps_lock, KC_CAPS),
     COMBO(mouse, TG(MOUSE)),
+    COMBO(ctrl_enter, LCTL(KC_ENT)),
 };
